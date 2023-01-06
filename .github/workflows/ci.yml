@@ -6,6 +6,8 @@ on:
     branches:
       - dev
       - master
+      - tv
+      - tv-dev
       - release**
     paths-ignore:
       - 'README.md'
@@ -18,6 +20,8 @@ on:
     branches:
       - dev
       - master
+      - tv
+      - tv-dev
     paths-ignore:
       - 'README.md'
       - 'fastlane/**'
