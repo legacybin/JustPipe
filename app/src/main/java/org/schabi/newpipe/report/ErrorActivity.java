@@ -81,7 +81,7 @@ public class ErrorActivity extends AppCompatActivity {
             = "Exception in NewPipe " + BuildConfig.VERSION_NAME;
 
     public static final String ERROR_GITHUB_ISSUE_URL
-            = "https://github.com/RSoulwin/JustPipe/issues";
+            = "https://github.com/TeamNewPipe/NewPipe/issues";
 
     private String[] errorList;
     private ErrorInfo errorInfo;

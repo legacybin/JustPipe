@@ -27,7 +27,7 @@ import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.AudioManager;
-import android.preference.PreferenceManager;
+import androidx.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
@@ -159,7 +159,7 @@ public abstract class BasePlayer implements
     //////////////////////////////////////////////////////////////////////////*/
 
     protected static final int PLAY_PREV_ACTIVATION_LIMIT_MILLIS = 5000; // 5 seconds
-    protected static final int PROGRESS_LOOP_INTERVAL_MILLIS = 2000; // 2 seconds
+    protected static final int PROGRESS_LOOP_INTERVAL_MILLIS = 1000; // 1 seconds
 
     protected SimpleExoPlayer simpleExoPlayer;
     protected AudioReactor audioReactor;

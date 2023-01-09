@@ -1,4 +1,4 @@
-JustPipe contribution guidelines
+NewPipe-Zing contribution guidelines
 ===============================
 
 ## Crash reporting
@@ -9,7 +9,7 @@ You'll see exactly what is sent, be able to add your comments, and then send it.
 
 ## Issue reporting/feature requests
 
-* **Already reported**? Browse the [existing issues](https://github.com/RSoulwin/JustPipe/issues) to make sure your issue/feature hasn't been reported/requested.
+* **Already reported**? Browse the [existing issues](https://github.com/TeamNewPipe/NewPipe/issues) to make sure your issue/feature hasn't been reported/requested.
 * **Already fixed**? Check whether your issue/feature is already fixed/implemented.
 * **Still relevant**? Check if the issue still exists in the latest release/beta version.
 * **Can you fix it**? If you are an Android/Java developer, you are always welcome to fix an issue or implement a feature yourself. PRs welcome!
@@ -27,7 +27,7 @@ You'll see exactly what is sent, be able to add your comments, and then send it.
 
 ### Guidelines
 
-* Stick to JustPipe's *style conventions* of [checkStyle](https://github.com/checkstyle/checkstyle) and [ktlint](https://github.com/pinterest/ktlint). They run each time you build the project.
+* Stick to NewPipe's *style conventions* of [checkStyle](https://github.com/checkstyle/checkstyle) and [ktlint](https://github.com/pinterest/ktlint). They run each time you build the project.
 * Stick to [F-Droid contribution guidelines](https://f-droid.org/wiki/page/Inclusion_Policy).
 * In particular **do not bring non-free software** (e.g. binary blobs) into the project. Make sure you do not introduce any closed-source library from Google.
 
@@ -39,7 +39,7 @@ You'll see exactly what is sent, be able to add your comments, and then send it.
 * Create PRs that cover only **one specific issue/solution/bug**. Do not create PRs that are huge monoliths and could have been split into multiple independent contributions.
 * NewPipe uses [NewPipeExtractor](https://github.com/TeamNewPipe/NewPipeExtractor) to fetch data from services. If you need to change something there, you must test your changes in NewPipe. Telling NewPipe to use your extractor version can be accomplished by editing the `app/build.gradle` file: the comments under the "NewPipe libraries" section of `dependencies` will help you out.
 
-### Kotlin in JustPipe
+### Kotlin in NewPipe
 * NewPipe will remain mostly Java for time being
 * Contributions containing a simple conversion from Java to Kotlin should be avoided. Conversions to Kotlin should only be done if Kotlin actually brings improvements like bug fixes or better performance which are not, or only with much more effort, implementable in Java. The core team sees Java as an easier to learn and generally well adopted programming language.
 
@@ -56,7 +56,7 @@ You'll see exactly what is sent, be able to add your comments, and then send it.
 ### Basic setup
 
 NewPipe is developed using [Android Studio](https://developer.android.com/studio/). Learn more about how to install it and how it works in the [official documentation](https://developer.android.com/studio/intro). In particular, make sure you have accepted Android Studio's SDK licences. Once Android Studio is ready, setting up the NewPipe project is fairly simple:
-- Clone the NewPipe repository with `git clone https://github.com/RSoulwin/JustPipe.git` (or use the link from your own fork, if you want to open a PR).
+- Clone the NewPipe repository with `git clone https://github.com/TeamNewPipe/NewPipe.git` (or use the link from your own fork, if you want to open a PR).
 - Open the folder you just cloned with Android Studio.
 - Build and run it just like you would do with any other app, with the green triangle in the top bar.
 
